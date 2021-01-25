@@ -9,3 +9,7 @@ The slope of the linear model is non-zero. This is because the coefficeients of 
 
 - Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 This linear model fairly accurately predicts the mpg of MechaCar Prototypes. This is confirmed by the adjusted R^2  of the model- 0.683. (See Deliverable 1 screenshot for reference.) It would worth to run another regression with less independent variables (those with a low p-value) and see if a more accurate model can be generated. 
+
+## Summary Statistics on Suspension Coils
+- The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+The suspension coils do not meet the design specifications standards, neither collectively or individually. Respectively, the average PSIs are 1500, 1500 and 1496 for Lots one, two and three. The total average is 1499. These all greatly exceede the 100 PSI standard. (See lot and total summary screenshots for reference.)
