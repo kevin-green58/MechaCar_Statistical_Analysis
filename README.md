@@ -13,3 +13,6 @@ This linear model fairly accurately predicts the mpg of MechaCar Prototypes. Thi
 ## Summary Statistics on Suspension Coils
 - The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
 The suspension coils do not meet the design specifications standards, neither collectively or individually. Respectively, the average PSIs are 1500, 1500 and 1496 for Lots one, two and three. The total average is 1499. These all greatly exceede the 100 PSI standard. (See lot and total summary screenshots for reference.)
+
+## T-Tests on Suspension Coils
+The results of t-test of the population vs the t-tests of the subset indicate that there is a Type II error occuring. While the p-value of the t-test for the population is 0.06, not enough, to reject the null hypothesis, the large t statistics and small p values of the subsets indicate that they are statistically different from the mean. See the t-test screenshots for reference.
